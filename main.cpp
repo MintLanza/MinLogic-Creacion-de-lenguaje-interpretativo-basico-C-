@@ -4,8 +4,8 @@
 using namespace std;
 
 int main(){
-  lex io;
-  io.log(R"(
-    val gfd fd
+  Mint io;
+  io.Lanza(R"(
+    val Value1 IS 0
   )");
 }
