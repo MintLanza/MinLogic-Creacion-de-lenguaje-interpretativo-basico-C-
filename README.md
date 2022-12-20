@@ -42,8 +42,9 @@ Este prgorama fue probado en Windows y Linux:
             } // añada otras funciones
         }
     }
-     ```
-     
+``````
+    
+    
      Si tienes alguna pregunta sobre el codigo no dudes en comentar o comunicarme 
        > Proxima actualizacion incluira: 
        .* logica dentro de llamadas a funciones:
