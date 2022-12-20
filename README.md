@@ -45,3 +45,22 @@ Este prgorama fue probado en Windows y Linux:
      ```
      
      Si tienes alguna pregunta sobre el codigo no dudes en comentar o comunicarme 
+       > Proxima actualizacion incluira: 
+       .* logica dentro de llamadas a funciones:
+         ``` 
+          val res : "hola " + 10 * 11; res +: 12;
+         resultado:
+          hola 122
+         ``` 
+         .* logica dentro de funciones:
+       ``` 
+          def res(val a1 +: 1){
+            res a1;
+          } 
+          a1(2)
+          
+          resultados:
+           3
+         ```
+         
+         
