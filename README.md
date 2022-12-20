@@ -51,7 +51,7 @@ Este prgorama fue probado en Windows y Linux:
          ``` 
           val res : "hola " + 10 * 11; res +: 12;
          resultado:
-          hola 122
+          hola 11112
          ``` 
          .* logica dentro de funciones:
        ``` 
