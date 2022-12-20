@@ -329,9 +329,9 @@ std::vector<VOT> amlcc;
       void Lanza(stg date){
         autoOrderIO(date);
          for (size_t ida = 0; ida < amlcc.size()-1; ida++){
-            long loc = amlcc[ida].size(); // condige la localidad de la lina que esta leyendo
+            long loc = amlcc[ida].size(); // consigue la localidad de la lina que esta leyendo
             if(FUNC.IS(amlcc,ida,0,FUNC.sysVal)){ // creacion de funcion del sistema, verifica el primer parametro de la linea
-                if(FUCKNum(loc, 1)){ // ver si el valor coincide con los nombre puestos en FUN 
+                if(FUCKNum(loc, 1)){ // ver si el valor coincide con los nombre puestos en FUNC
                     condition(amlcc[ida].getline(), amlcc[ida][0], " esta funcion no tiene parametros"); // error, se solicita por lo menos 2 argumentos
                 }else{
                     if(FUCKNum(loc,2)){ // ve si despues de los 2 parametros hay mas o no
