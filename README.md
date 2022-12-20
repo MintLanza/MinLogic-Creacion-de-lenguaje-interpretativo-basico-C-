@@ -42,7 +42,7 @@ Este prgorama fue probado en Windows y Linux:
             } // añada otras funciones
         }
     }
-``````
+```
     
     
      Si tienes alguna pregunta sobre el codigo no dudes en comentar o comunicarme 
@@ -63,5 +63,6 @@ Este prgorama fue probado en Windows y Linux:
           resultados:
            3
          ```
+       .* redactor de archivos, tanto para windows y linux etiqueta: .ml > MintLanza
          
          
